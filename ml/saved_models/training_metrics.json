@@ -1,0 +1,41 @@
+{
+  "heart_rate": {
+    "cv_mae": 8.125,
+    "test_mae": 7.89,
+    "r2": 0.0805
+  },
+  "anomaly": {
+    "trained_on_healthy_n": 4380,
+    "contamination": 0.05
+  },
+  "diabetes": {
+    "cv_auc_mean": 1.0,
+    "cv_auc_std": 0.0,
+    "test_auc": 1.0,
+    "pos_rate": 0.2374
+  },
+  "hypertension": {
+    "cv_auc_mean": 1.0,
+    "cv_auc_std": 0.0,
+    "test_auc": 1.0,
+    "pos_rate": 0.4844
+  },
+  "hypoxia": {
+    "cv_auc_mean": 1.0,
+    "cv_auc_std": 0.0,
+    "test_auc": 1.0,
+    "pos_rate": 0.01
+  },
+  "fever_infection": {
+    "cv_auc_mean": 1.0,
+    "cv_auc_std": 0.0,
+    "test_auc": 1.0,
+    "pos_rate": 0.0067
+  },
+  "cardiac_risk": {
+    "cv_auc_mean": 1.0,
+    "cv_auc_std": 0.0,
+    "test_auc": 1.0,
+    "pos_rate": 0.0272
+  }
+}
