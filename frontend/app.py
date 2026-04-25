@@ -23,7 +23,11 @@ import streamlit as st
 from fpdf import FPDF
 
 # ── Config ────────────────────────────────────────────────────────────────────
-DEFAULT_API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/api")
+#DEFAULT_API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/api")
+DEFAULT_API_URL = os.getenv(
+    "API_URL",
+    "https://ai-wearable-health-project-2.onrender.com/api"
+)
 DEFAULT_API_KEY = os.getenv("API_KEY", "dev-key-change-in-production")
 METRICS_PATH    = Path(__file__).parent.parent / "ml" / "saved_models" / "training_metrics.json"
 
