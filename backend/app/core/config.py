@@ -40,7 +40,7 @@ class Settings(BaseSettings):
 
     # ── ML ────────────────────────────────────────────────────────────────
     models_dir: str = str(
-        Path(__file__).parent.parent.parent.parent / "ml" / "saved_models"
+        Path(__file__).parent.parent.parent / "ml" / "saved_models"
     )
 
     # ── CORS ─────────────────────────────────────────────────────────────
